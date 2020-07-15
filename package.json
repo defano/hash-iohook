@@ -1,0 +1,31 @@
+{
+  "name": "hash",
+  "version": "1.0.0",
+  "description": "See the various hash values of entered text",
+  "repository": "electron/simple-samples",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron app.js"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "8.4.0"
+  },
+  "dependencies": {
+    "iohook": "^0.6.6"
+  },
+  "iohook": {
+    "targets": [
+      "electron-76"
+    ],
+    "platforms": [
+      "win32",
+      "darwin",
+      "linux"
+    ],
+    "arches": [
+      "x64",
+      "ia32"
+    ]
+  }
+}
